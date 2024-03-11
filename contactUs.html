@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- Mark O Mahony 
+Class: CD -->
+<html lang="en">
+<!-- Head section holding title, css style sheet link and meta tags -->
+	<head>
+		<title>Lux Cutz</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Lux Cutz">
+		<meta name="keywords" content="Luxury, beauty, barber, hairdressers">
+		<meta name="author" content="Mark O Mahony">		
+	</head>
+	<!-- Main content of page -->
+	<body>
+		<div id="page">
+		<center>
+		<!-- Lux Cutz Logo -->
+			<div id="logo">
+				<a  href = "index.html"> <img src="./images/LuxCutzLogo.png" alt="Lux Cutz logo"></a>
+			</div>
+		</center>
+			<!-- Navigation Bar -->
+			<ul id="navigation">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="barbers.html">Our Barbers</a></li>
+				<li><a href="hairdressers.html">Our Hairdressers</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contactUs.html">Contact Us</a></li>
+			</ul>
+			
+			<div id="gallery">
+				<h2> Please fill in the form below: </h2>
+				<!-- Form section -->
+				<form enctype="text/plain" method=post>
+					<!-- Personal details section -->
+					<fieldset>
+						<legend> Personal Details </legend>
+						</br>
+							<label for="name">Name*: </label>
+								<input id="name" type="text" minlength="3" maxlength="50" name="name" required>
+							</br>
+							</br>
+							<label for="address">Address*: </label>
+								<input id="address" type="text" name="address" minlength="3" required>
+							</br>
+							</br>
+							<label for="city">City*: </label>
+								<input id="city" type="text" name="city" minlength="3" required>
+							</br>
+							</br>
+							<label for="email">Email*: </label>
+								<input id="email" type="text" name="email" minlength="3" required>
+							</br>
+							</br>
+							<label for="number">Contact Number*: </label>
+								<input id="number" type="text" name="number" minlength="3" required>
+							</br>
+							</br>
+					</fieldset>
+					
+					</br>
+					<!-- Query details section -->
+					<fieldset>
+						<legend> Your Query: </legend>
+							</br>
+							<p>I would like to know more about*:</p>
+								Our Barbers <input name="query" type="radio" value="Barbers" required>
+								Our Hairdressers <input name="query" type="radio" value="Hairdressers">
+								Book an Appointment <input name="query" type="radio" value="BookAnAppointment">
+							</br>
+							</br>
+							<p>Please provide as much detail as possible for your query: </p>
+							<textarea cols="75" rows="10" name="Info">Type Here...</textarea>
+										
+							</br>
+							</br>
+							<p>All required fields marked*</p>
+							<input type="submit" value="Submit" action="example.cgi">
+							<input type="reset" value="Start Over">				
+						</fieldset>
+				</form>
+
+			<br/>
+			<br/>
+			<!-- Footer section -->
+			<footer>
+				<strong>&copy;Mark O Mahony - LuxCutz2024</strong>
+			</footer>
+		</div>
+	</body>
+</html>
+		
+			
+		
